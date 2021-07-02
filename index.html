@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <title>Back office</title>
+    </head>
+    <body>
+        <header>
+            <h1>Back office</h1>
+        </header>
+        <div id="main">
+            <section id="ContainForm">
+                <form action="#">
+                    <h2>Ajouter une nouvelle image</h2>
+                    <div class="parent-div">
+                        <button class="btn-upload">Choisir le fichier</button>
+                        <input type="file" name="upfile" id="fileItem" accept="image/png, image/jpeg, image/jpg" required/>
+                    </div>
+                    <input id="submit" type="submit" value="Envoyer">              
+                </form>
+                
+                <div id="fileImg"></div>
+            </section>
+
+            <section id="library">
+
+            </section>
+        </div>
+
+
+    </body>
+    <script src="script.js"></script>
+</html>
